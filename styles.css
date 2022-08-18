@@ -41,6 +41,7 @@
    }
    .menu a:hover {
     color: #6de6e6;
+    transition: 0.4s ease;
     
    }
    .menu li {
@@ -95,6 +96,14 @@ a{
     font-size: 1.0625rem;
     border-radius: 2px;
     padding: 10px;
+}
+.btn-one:hover{
+    background-color: #03c4eb59;
+    transition: 0.4s ease;
+}
+.btn-two:hover{
+    background-color: #03c4eb59;
+    transition: 0.4s ease;
 }
 .btn-one a{
     color: #FFF;
@@ -373,6 +382,11 @@ input[type=submit]  select, #submit{
     font-size: 13px;
     width: 100%;
 }
+input[type=submit]  select, #submit:hover{
+    background-color: #03c4eb83;
+    transition: 0.4s ease;
+    color: #222;
+}
 
 .footer{
     display: flex;
@@ -416,6 +430,11 @@ input[type=submit]  select, #newsletter-btn{
     text-decoration: none;
     font-weight: 600;
     font-size: 13px;
+}
+input[type=submit]  select, #newsletter-btn:hover{
+    background-color: #03c4eb83;
+    transition: 0.4s ease;
+    color: #222;
 }
 
 .main-footer{
